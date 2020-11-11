@@ -26,7 +26,7 @@
                 </thead>
                 <div class="wrapper">
                     <div class="card" v-for="item in resultQuery" :key="item">
-                        <a v-bind:href="item.uri" target="_blank">
+                        <a v-bind:href="component ='/edit' " target="_blank">
                         <small>Space_available: {{ item.space_available }}</small>
                             {{ item.name}}
                         <small>{{ item.city }}</small>

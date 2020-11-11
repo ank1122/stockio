@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png" />z -->
-    <HelloWorld msg="Welcome to Stock.io" />
+    <h1>Welcome to Stock.io</h1>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
+// import HelloWorld from "./components/HelloWorld.vue";
+// import Warehouse from "./components/WarehousesDetails";
 export default {
   name: "App",
   components: {
-    HelloWorld
+    // HelloWorld,
+    // Warehouse
   }
 };
 </script>
